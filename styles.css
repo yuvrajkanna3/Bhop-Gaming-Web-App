@@ -1,0 +1,190 @@
+*{
+  font-family: 'Anton', sans-serif;
+}
+.home-section{
+  height: 100vh;
+  background-color: #fa4454;
+}
+.home-center-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.center{
+  margin-top: 7vh;
+  padding: 10px;
+}
+.div-card{
+  text-align: center;
+}
+.event-section{
+  background-color: #fa4454;
+
+}
+.event-h1{
+  padding-bottom: 20px;
+  font-size: 8vh;
+}
+.event-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+}
+.footer-section{
+  background-color: #fa4454;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(100px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 1.5s infinite;
+}
+.span-h1{
+  color: #fff;
+}
+.about-us-h1{
+  font-size: 7vh;
+}
+.about-us-p{
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.cards{
+  padding: 20px;
+
+  /* background-color: #343a40; */
+
+}
+.body-card{
+  height: 150px;
+
+}
+.card-body{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.event-card{
+  background-color: #fa4454;
+
+}
+
+.about-us-split{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.esports{
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-around;
+}
+.about-us-esports{
+  text-align: center;
+  padding: 20px;
+}
+.about-us-esports-p{
+  text-align: left;
+}
+.mycard-img{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   background-color:white;
+
+ }
+.mycard{
+  padding: 20px;
+}
+.mycard-p{
+  padding-top: 20px;
+}
+.im{
+  text-align: center;
+}
+.right-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-text-content{
+  padding: 20px;
+}
+.brands{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+  height: auto;
+  width: 100%;
+  background-color: #FFFFF0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.brands-parent{
+text-align: center;
+padding: 20px;
+color: #FFFFF0;
+
+}
+.brands-parent-h1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.mycard-parent-h1{
+  font-size: 7vh;
+}
+.mycard-parent{
+  padding-top: 20px;
+  text-align: left;
+}
+.regestration-div{
+  border-radius: 5px;
+  background-color: #FFFFF0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin: 30px;
+}
+.discord-regestration-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.discord-regestration-i{
+  margin-right: 5px;
+}
+.discord{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  padding: 10px;
+}
+.discord-p{
+  margin-top: 10px;
+}
+.discord-button{
+  display: flex;
+  justify-content: center;
+
+  flex-direction:row;
+}
+.footer-button{
+  margin: 7px;
+}
